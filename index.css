@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+body {
+    background: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),
+    url('https://images.unsplash.com/photo-1501785888041-af3ef285b470');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+}
+
+.logo {
+    color: orange;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: orange;
+}
+
+.search-box {
+    display: flex;
+}
+
+.search-box input {
+    padding: 8px;
+    border: none;
+    outline: none;
+}
+
+.search-box button {
+    background: orange;
+    border: none;
+    padding: 8px 15px;
+    color: white;
+    cursor: pointer;
+}
+
+/* MAIN */
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px;
+}
+
+/* LEFT CONTENT */
+.content {
+    max-width: 500px;
+}
+
+.content h1 {
+    font-size: 55px;
+    line-height: 1.2;
+}
+
+.content span {
+    color: orange;
+}
+
+.content p {
+    margin: 20px 0;
+    line-height: 1.6;
+    color: #ddd;
+}
+
+.join-btn {
+    background: orange;
+    border: none;
+    padding: 12px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* LOGIN BOX */
+.login-box {
+    background: rgba(0,0,0,0.85);
+    padding: 30px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.login-box h2 {
+    background: white;
+    color: orange;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.login-box input {
+    width: 100%;
+    margin: 15px 0;
+    padding: 10px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid orange;
+    color: white;
+    outline: none;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 10px;
+    background: orange;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.login-btn:hover {
+    background: #ff8800;
+}
+
+.link {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.link a {
+    color: orange;
+    text-decoration: none;
+}
+
+.liw {
+    text-align: center;
+    margin-top: 15px;
+}
+
+/* ICONS */
+.icons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.icons i {
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.icons i:hover {
+    color: orange;
+    transform: scale(1.3);
+}
